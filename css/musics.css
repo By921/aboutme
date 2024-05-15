@@ -1,0 +1,25 @@
+
+body { font-family: 'Arial', sans-serif; background-color: #282c34; color: #FFF; text-align: center; padding: 30px; }
+.container { width: 100%; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #3a3f47; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+.audio-controls button { padding: 10px; margin: 5px; background-color: #61dafb; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }
+.audio-controls button:hover { background-color: #83e2ff; }
+audio { width: 100%; margin-top: 20px; }
+
+.home-button {
+    background: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  .home-button li a:hover {
+    background: #000;
+  
+    transition: 0.2s;
+  }
+  .home-button li a:hover .fab {
+    color: #fff;
+  }
